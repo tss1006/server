@@ -3,7 +3,7 @@ const App = require('../controller/app')
 
 module.exports = function(){
   var router = new Router({
-    prefix: '/api'
+    prefix: '/miniserver'
   })
 
   router.get('/getData',App.getData)
